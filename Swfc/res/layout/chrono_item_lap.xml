@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+ 	android:background="@color/white"
+ 	>
+ 	<TextView
+		android:id="@+id/number"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:textStyle="bold"
+	    android:layout_alignParentLeft="true"
+	    android:gravity="center_vertical"
+	    android:typeface="monospace"
+	    style="@style/chrono_laps"
+	    /> 
+	<TextView
+		android:id="@+id/time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:textStyle="bold"
+	    android:layout_alignParentRight="true"
+	    android:gravity="center_vertical"
+	    android:typeface="monospace"
+	    style="@style/chrono_laps"
+	    /> 
+</RelativeLayout>

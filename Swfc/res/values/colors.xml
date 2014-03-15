@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="steampBlue">#3661f6</color> 
+	<color name="steampBluelight">#50bbffff</color>
+    <color name="gray">#ff888888</color>
+    <color name="grayLight">#DCDCDC</color>
+    <color name="grayMedium">#BEBEBE</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="markedItem">#BCD4E6</color>
+    <color name="transparent">#00000000</color> 
+    <color name="orange">#ffa500</color>
+</resources>

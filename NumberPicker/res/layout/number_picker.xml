@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.michaelnovakjr.numberpicker.NumberPickerButton android:id="@+id/increment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/NumberPickerUpButton" />
+
+    <TextView 
+        android:id="@+id/timepicker_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/NumberPickerInputText" 
+        />
+
+    <com.michaelnovakjr.numberpicker.NumberPickerButton android:id="@+id/decrement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/NumberPickerDownButton" />
+
+</merge>

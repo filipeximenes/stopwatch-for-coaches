@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português -->
+<resources>
+	<string name="app_name">"Cronômetro para Treinadores"</string>
+    <string name="select">"De quantos cronômetros você precisa:"</string>
+    <string name="go_to_stopwatch">"Cronômetros"</string>
+    <string name="message_appel_bt">"Enviar um e-mail!"</string>
+    <string name="rate_app">"Avaliar este aplicativo!"</string>
+    <string name="get_it">"Google Play"</string>
+    <string name="no_thanks">"Cancelar"</string>
+    <string name="dialog_message">"Você precisa do 'Chronômetro para Treinadores+' para fazer isso"</string>
+    <string name="saved_times_bt">"Tempos Salvos"</string>
+</resources>

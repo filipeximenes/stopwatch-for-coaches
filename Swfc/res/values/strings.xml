@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English -->
+<resources>
+	<string name="app_name">"Stopwatch for Coaches"</string>
+    <string name="select">"Choose the number of stopwatches you need:"</string>
+    <string name="go_to_stopwatch">"Stopwatches"</string>
+    <string name="message_appel_bt">"Send an e-mail!"</string>
+    <string name="rate_app">"Rate this app!"</string>
+    <string name="get_it">"Get it!"</string>
+    <string name="no_thanks">"No thanks"</string>
+    <string name="dialog_message">"You need Stopwatch for Coaches Plus to do this."</string>
+    <string name="saved_times_bt">"Saved Times"</string>
+    
+    <string name="message_appel">"forcoaches@gmail.com"</string>
+    <string name="for_coaches_plus">"Stopwatch for Coaches Plus"</string>
+    
+    <string-array name="numbers">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+</resources>

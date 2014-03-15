@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="CompetitonChronoStart">Start!</string>
+	<string name="CompetitonChronoStop">Done</string>
+	<string name="CompetitonChronoClear">Clear</string>
+	<string name="CompetitonChronoSave">Save</string>
+	
+	<string name="CompetitonChronoToggleLap">Lap</string>
+	<string name="CompetitonChronoToggleTotal">Total</string>
+	<string name="CompetitonChronoToggleButton">Lap/Total</string>
+</resources>

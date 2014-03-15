@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10sp"
+    >
+	<Button 
+	    android:id="@+id/date_dialog_save_bt"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Save To File"
+	    android:layout_alignParentTop="true"
+	    />
+	<Button 
+	    android:id="@+id/date_dialog_rename_bt"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Rename"
+	    android:layout_below="@+id/date_dialog_save_bt"
+	    />
+	<Button 
+	    android:id="@+id/date_dialog_delete_bt"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Delete"
+	    android:layout_below="@+id/date_dialog_rename_bt"
+	    />
+</RelativeLayout>
