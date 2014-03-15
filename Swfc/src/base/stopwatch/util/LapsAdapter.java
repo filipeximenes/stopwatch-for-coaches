@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 
 public class LapsAdapter extends ArrayAdapter<AthleteItem.ChronoTime>{
 	private boolean lapOrTotal = true;

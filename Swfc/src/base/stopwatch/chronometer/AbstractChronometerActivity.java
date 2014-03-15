@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.os.Bundle;
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import base.stopwatch.chronometer.BaseChronometerBar.OnSaveButtonOnClickListenner;
 import base.stopwatch.util.AthleteItem;
 

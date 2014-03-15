@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="forcoaches.stopwatch"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="simultaneous.stopwatches.free"
+    android:versionCode="18"
+    android:versionName="3.0" >
     
     <uses-sdk 
         android:minSdkVersion="7" 
@@ -17,7 +17,7 @@
         >
         
         <activity
-            android:name=".MenuActivity"
+            android:name="forcoaches.stopwatch.MenuActivity"
             android:label="@string/app_name" 
             android:screenOrientation="portrait"
             >
@@ -28,7 +28,7 @@
         </activity>
         
         <activity
-            android:name=".ChronometerActivity"
+            android:name="forcoaches.stopwatch.ChronometerActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             >

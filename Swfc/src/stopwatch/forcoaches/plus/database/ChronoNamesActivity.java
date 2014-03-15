@@ -1,6 +1,6 @@
 package stopwatch.forcoaches.plus.database;
 
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import stopwatch.forcoaches.plus.database.ChronoNamesListView.GetRaceIdFromActivity;
 import stopwatch.forcoaches.plus.database.ChronoNamesListView.StartActivityFromItemSelected2;
 import android.app.Activity;

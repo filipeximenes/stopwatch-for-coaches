@@ -3,7 +3,7 @@ package base.stopwatch.util;
 import java.util.ArrayList;
 
 import android.content.Context;
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import base.stopwatch.chronometer.BaseChronometer;
 
 public class AthleteItem extends AbstractItemElement{

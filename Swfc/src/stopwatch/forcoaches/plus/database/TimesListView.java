@@ -1,7 +1,7 @@
 package stopwatch.forcoaches.plus.database;
 
 import base.stopwatch.chronometer.BaseChronometer;
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import stopwatch.forcoaches.plus.database.SavedDatesListView.StartActivityFromItemSelected;
 import stopwatch.forcoaches.util.ExtendedListView;
 import android.content.Context;

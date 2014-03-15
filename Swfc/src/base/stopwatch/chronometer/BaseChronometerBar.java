@@ -12,7 +12,7 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.LinearLayout;
 import android.widget.ToggleButton;
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import base.stopwatch.chronometer.BaseChronometer.UpdateChronosOnTickListener;
 import base.stopwatch.chronometer.ChronoList.FlashChronometerBar;
 import base.stopwatch.util.design.Colors;

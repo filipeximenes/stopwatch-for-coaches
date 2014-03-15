@@ -1,6 +1,6 @@
 package stopwatch.forcoaches.plus.database;
 
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import stopwatch.forcoaches.plus.database.SavedDatesListView.GetActivity;
 import stopwatch.forcoaches.plus.database.SavedDatesListView.StartActivityFromItemSelected;
 import android.app.Activity;

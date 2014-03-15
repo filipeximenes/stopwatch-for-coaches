@@ -1,6 +1,6 @@
 package stopwatch.forcoaches.plus.database;
 
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import stopwatch.forcoaches.util.DateItemOptionsDialog;
 import stopwatch.forcoaches.util.ExtendedListView;
 import android.app.Activity;

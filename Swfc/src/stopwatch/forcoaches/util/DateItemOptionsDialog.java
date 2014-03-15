@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import stopwatch.forcoaches.plus.database.ChronoNames;
 import stopwatch.forcoaches.plus.database.DatabaseReferences;
 import stopwatch.forcoaches.plus.database.SavedDate;

@@ -1,6 +1,6 @@
 package stopwatch.forcoaches.plus.database;
 
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;

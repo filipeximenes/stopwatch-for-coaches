@@ -12,7 +12,7 @@ import android.view.ViewTreeObserver.OnPreDrawListener;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import forcoaches.stopwatch.R;
+import simultaneous.stopwatches.free.R;
 import base.stopwatch.chronometer.BaseChronometer.UpdateChronosOnTickListener;
 import base.stopwatch.chronometer.BaseChronometerBar.CommandChronoListFromBar;
 import base.stopwatch.util.AthleteItem;
