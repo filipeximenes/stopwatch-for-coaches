@@ -31,4 +31,16 @@
 		android:layout_height="fill_parent"
 		android:layout_weight="1"
 		/>
+	<include 
+		layout="@layout/chrono_item_chrono"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		/>
+	<include 
+		layout="@layout/chrono_item_chrono"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		/>
 </LinearLayout>

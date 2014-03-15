@@ -18,6 +18,7 @@ import base.stopwatch.chronometer.BaseChronometerBar.CommandChronoListFromBar;
 import base.stopwatch.util.AthleteItem;
 
 public class ChronoList extends LinearLayout implements UpdateChronosOnTickListener, CommandChronoListFromBar{
+	public static int MAX_CHRONO_NUMBER = 6;
 	private ArrayList<Integer> onScreen;
 	private long lastTouchTime = 0;
 	private int chronoItemHeight = 0;
@@ -91,7 +92,7 @@ public class ChronoList extends LinearLayout implements UpdateChronosOnTickListe
 			list.getChildAt(i).setVisibility(LinearLayout.VISIBLE);
 		}
 		
-		for (; i < 4; i++){
+		for (; i < this.MAX_CHRONO_NUMBER; i++){
 			list.getChildAt(i).setVisibility(LinearLayout.GONE);
 		}
 		

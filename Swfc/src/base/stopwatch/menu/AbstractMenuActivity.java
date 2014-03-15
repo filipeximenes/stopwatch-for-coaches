@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import simultaneous.stopwatches.free.R;
+import base.stopwatch.chronometer.ChronoList;
 
 import com.michaelnovakjr.numberpicker.NumberPicker;
 
@@ -24,7 +25,7 @@ public abstract class AbstractMenuActivity extends Activity{
 		
 		picker = (NumberPicker) findViewById(R.id.num_picker);
 		
-		picker.setRange(1, 4);
+		picker.setRange(1, ChronoList.MAX_CHRONO_NUMBER);
 		picker.setWrap(false);
 		
 		Button showChronoBT = (Button) findViewById(R.id.show_chronometers_bt);
