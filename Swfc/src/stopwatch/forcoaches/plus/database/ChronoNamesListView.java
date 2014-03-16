@@ -63,8 +63,8 @@ public class ChronoNamesListView extends ExtendedListView<ChronoNames>{
 				
 				Builder builder = new Builder(getContext());
 				builder.setView(textEntryView);
-				builder.setTitle("Reaname Item");
-				builder.setPositiveButton("Remane", new DialogInterface.OnClickListener() {
+				builder.setTitle("Rename Item");
+				builder.setPositiveButton("Rename", new DialogInterface.OnClickListener() {
 					@Override
 					public void onClick(DialogInterface dialog, int whichButton) {
 						item.setName(text.getText().toString());
