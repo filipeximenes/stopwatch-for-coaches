@@ -14,8 +14,8 @@
 	    android:layout_width="fill_parent"
 		android:gravity="center"
 	    android:layout_weight="1"
-	    android:textOn="@string/competitonChrono_toggle_button"
-	    android:textOff="@string/competitonChrono_toggle_button"
+	    android:textOn="@string/competiton_chrono_toggle_button"
+	    android:textOff="@string/competiton_chrono_toggle_button"
 	    android:background="@android:drawable/btn_default"
 		/>
 	<base.stopwatch.chronometer.BaseChronometer
