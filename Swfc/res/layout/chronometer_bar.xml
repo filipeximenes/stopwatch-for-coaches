@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:id="@+now_swimming/barLL"
+	android:id="@+id/now_swimming_barLL"
 	android:layout_width="fill_parent"
 	android:layout_height="70sp"
 	android:orientation="horizontal"
 	android:background="@color/steampBlue"
 	>
 	<ToggleButton
-		android:id="@+now_swimming/toggleBT"
-		android:text="@string/CompetitonChronoStop"
+		android:id="@+id/now_swimming_toggleBT"
+		android:text="@string/competiton_chrono_stop"
 		android:layout_height="fill_parent"
 	    android:layout_width="fill_parent"
 		android:gravity="center"
 	    android:layout_weight="1"
-	    android:textOn="@string/CompetitonChronoToggleButton"
-	    android:textOff="@string/CompetitonChronoToggleButton"
+	    android:textOn="@string/competitonChrono_toggle_button"
+	    android:textOff="@string/competitonChrono_toggle_button"
 	    android:background="@android:drawable/btn_default"
 		/>
 	<base.stopwatch.chronometer.BaseChronometer
-		android:id="@+now_swimming/chronoCH"
+		android:id="@+id/now_swimming_chronoCH"
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 		android:layout_weight="1"
@@ -29,8 +29,8 @@
 		style="@style/chrono_main_chrono"
 		/>
 	<Button
-		android:id="@+now_swimming/startBT"
-		android:text="@string/CompetitonChronoStart"
+		android:id="@+id/now_swimming_startBT"
+		android:text="@string/competiton_chrono_start"
 		android:layout_height="fill_parent"
 	    android:layout_width="fill_parent"
 		android:gravity="center"
@@ -38,8 +38,8 @@
 	    android:background="@drawable/chrono_start_button"
 		/>
 	<Button
-		android:id="@+now_swimming/stopBT"
-		android:text="@string/CompetitonChronoStop"
+		android:id="@+id/now_swimming_stopBT"
+		android:text="@string/competiton_chrono_stop"
 		android:layout_height="fill_parent"
 	    android:layout_width="fill_parent"
 		android:gravity="center"
@@ -47,8 +47,8 @@
 	    android:background="@drawable/chrono_stop_button"
 		/>
 	<Button
-		android:id="@+now_swimming/clearBT"
-		android:text="@string/CompetitonChronoClear"
+		android:id="@+id/now_swimming_clearBT"
+		android:text="@string/competiton_chrono_clear"
 		android:layout_height="fill_parent"
 	    android:layout_width="fill_parent"
 		android:gravity="center"
@@ -56,8 +56,8 @@
 	    android:background="@drawable/chrono_reset_button"
 		/>	
 	<Button
-		android:id="@+now_swimming/saveBT"
-		android:text="@string/CompetitonChronoSave"
+		android:id="@+id/now_swimming_saveBT"
+		android:text="@string/competiton_chrono_save"
 		android:layout_height="fill_parent"
 	    android:layout_width="fill_parent"
 		android:gravity="center"

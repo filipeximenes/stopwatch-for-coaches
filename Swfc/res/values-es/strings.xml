@@ -8,6 +8,6 @@
     <string name="rate_app">"Valora esta aplicación!"</string>
     <string name="get_it">"Google Play"</string>
     <string name="no_thanks">"Cancelar"</string>
-    <string name="dialog_message">"Usted necesita el signo 'Cronómetro para Entrenadores+' para hacer esto"</string>
+    <string name="dialog_message">"Usted necesita el signo \'Cronómetro para Entrenadores+\' para hacer esto"</string>
     <string name="saved_times_bt">"Ahorro de tiempo"</string>
 </resources>

@@ -8,6 +8,6 @@
     <string name="rate_app">"Avaliar este aplicativo!"</string>
     <string name="get_it">"Google Play"</string>
     <string name="no_thanks">"Cancelar"</string>
-    <string name="dialog_message">"Você precisa do 'Chronômetro para Treinadores+' para fazer isso"</string>
+    <string name="dialog_message">"Você precisa do \'Chronômetro para Treinadores+\' para fazer isso"</string>
     <string name="saved_times_bt">"Tempos Salvos"</string>
 </resources>

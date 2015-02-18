@@ -13,7 +13,9 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.LinearLayout;
 import android.widget.ToggleButton;
 import simultaneous.stopwatches.free.R;
-import base.stopwatch.chronometer.BaseChronometer.UpdateChronosOnTickListener;
+//import base.stopwatch.chronometer.BaseChronometer.UpdateChronosOnTickListener;
+import base.stopwatch.chronometer.ChronometerInterfaces.CommandChronoListFromBar;
+import base.stopwatch.chronometer.ChronometerInterfaces.UpdateChronosOnTickListener;
 import base.stopwatch.chronometer.ChronoList.FlashChronometerBar;
 import base.stopwatch.util.design.Colors;
 
@@ -29,12 +31,6 @@ public final class BaseChronometerBar extends LinearLayout implements FlashChron
 	private Animation flashChrono;
 	private CommandChronoListFromBar chronoListComunication;
 	private OnSaveButtonOnClickListenner saveButtonListenner;
-	
-	//communication from ForCoachesChronometerBar to ChronoList 
-	public interface CommandChronoListFromBar{
-		void clearAllChronos();
-		void toggleLapOrTotal();
-	}
 	
 	public interface OnSaveButtonOnClickListenner{
 		void saveButtonOnClickListenner();
@@ -72,12 +68,12 @@ public final class BaseChronometerBar extends LinearLayout implements FlashChron
 	protected void onFinishInflate() {
 		super.onFinishInflate();
 		
-		startBT = (Button) findViewById(R.now_swimming.startBT);
-		stopBT = (Button) findViewById(R.now_swimming.stopBT);
-		clearBT = (Button) findViewById(R.now_swimming.clearBT);
-		saveBT = (Button) findViewById(R.now_swimming.saveBT);
-		toggleLapTotal = (ToggleButton) findViewById(R.now_swimming.toggleBT);
-		chronometer = (BaseChronometer) findViewById(R.now_swimming.chronoCH);
+		startBT = (Button) findViewById(R.id.now_swimming_startBT);
+		stopBT = (Button) findViewById(R.id.now_swimming_stopBT);
+		clearBT = (Button) findViewById(R.id.now_swimming_clearBT);
+		saveBT = (Button) findViewById(R.id.now_swimming_saveBT);
+		toggleLapTotal = (ToggleButton) findViewById(R.id.now_swimming_toggleBT);
+		chronometer = (BaseChronometer) findViewById(R.id.now_swimming_chronoCH);
 		
 		startBT.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {

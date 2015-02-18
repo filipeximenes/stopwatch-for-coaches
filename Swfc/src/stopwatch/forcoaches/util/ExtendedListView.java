@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-//ATEN‚ÌO: initialize() deve ser sempre chamado antes de se comear a usar esta classe
+//ATENï¿½ï¿½O: initialize() deve ser sempre chamado antes de se comeï¿½ar a usar esta classe
 
 public class ExtendedListView<T> extends ListView{
 	private ArrayAdapter<T> arrayAdapter;

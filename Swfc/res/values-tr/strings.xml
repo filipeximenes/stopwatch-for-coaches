@@ -4,7 +4,7 @@
 	<string name="app_name">Koçlar için Kronometre</string>
     <string name="select">"İhtiyacınız kronometreli sayısını seçin:"</string>
     <string name="go_to_stopwatch">Kronometreler</string>
-    <string name="message_appel_bt">"Twitter'da Paylaş"</string>
+    <string name="message_appel_bt">"Twitter\'da Paylaş"</string>
     <string name="rate_app">"Bu uygulamayı değerlendirin!"</string>
     <string name="get_it">"Alın!"</string>
     <string name="no_thanks">"hayır, teşekkürler"</string>

@@ -13,8 +13,11 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import simultaneous.stopwatches.free.R;
-import base.stopwatch.chronometer.BaseChronometer.UpdateChronosOnTickListener;
-import base.stopwatch.chronometer.BaseChronometerBar.CommandChronoListFromBar;
+//import base.stopwatch.chronometer.BaseChronometer.UpdateChronosOnTickListener;
+//import base.stopwatch.chronometer.BaseChronometerBar.CommandChronoListFromBar;
+import base.stopwatch.chronometer.ChronometerInterfaces.UpdateChronosOnTickListener;
+import base.stopwatch.chronometer.ChronometerInterfaces.GetChronoInformation;
+import base.stopwatch.chronometer.ChronometerInterfaces.CommandChronoListFromBar;
 import base.stopwatch.util.AthleteItem;
 
 public class ChronoList extends LinearLayout implements UpdateChronosOnTickListener, CommandChronoListFromBar{
@@ -40,14 +43,7 @@ public class ChronoList extends LinearLayout implements UpdateChronosOnTickListe
 	public void setFlashChronometerBar(FlashChronometerBar flashAnimation) {
 		this.flashAnimation = flashAnimation;
 	}
-	
-	//communication from ChronoList to ForCoachesChronometer
-	public interface GetChronoInformation{
-		boolean started();
-		long getBase();
-		long getChronoElapsedTime();
-	}
-	
+
 	//set communication from ChronoList to ForCoachesChronometer
 	public void setGetChronoInformation (GetChronoInformation chronoInfo) {
 		this.chronoInfo = chronoInfo;
@@ -147,11 +143,11 @@ public class ChronoList extends LinearLayout implements UpdateChronosOnTickListe
 		final AthleteItem item = athletes.get(position);
 		
 		if (item != null) {			
-			TextView athleteTV = (TextView) view.findViewById(R.chrono_item.nameTV);
-			TextView timeTV = (TextView) view.findViewById(R.chrono_item.timeTV);
-			TextView lapTV = (TextView) view.findViewById(R.chrono_item.lapTV);
-			TextView chronoTimeTV = (TextView) view.findViewById(R.chrono_item.chronoTV);
-			ListView laps = (ListView) view.findViewById(R.chrono_item.lapsLV);
+			TextView athleteTV = (TextView) view.findViewById(R.id.chrono_item_nameTV);
+			TextView timeTV = (TextView) view.findViewById(R.id.chrono_item_timeTV);
+			TextView lapTV = (TextView) view.findViewById(R.id.chrono_item_lapTV);
+			TextView chronoTimeTV = (TextView) view.findViewById(R.id.chrono_item_chronoTV);
+			ListView laps = (ListView) view.findViewById(R.id.chrono_item_lapsLV);
 			
 			view.setMinimumHeight(chronoItemHeight);
 			
@@ -240,13 +236,13 @@ public class ChronoList extends LinearLayout implements UpdateChronosOnTickListe
 		String title;
 		
 		if (toggleLapTotal){
-			title = getContext().getResources().getString(R.string.CompetitonChronoToggleLap);
+			title = getContext().getResources().getString(R.string.competiton_chrono_toggle_lap);
 		}else{
-			title = getContext().getResources().getString(R.string.CompetitonChronoToggleTotal);
+			title = getContext().getResources().getString(R.string.competiton_chrono_toggle_total);
 		}
 		
 		for (int i = 0; i < athletsNumber; i++){
-			((TextView) list.getChildAt(i).findViewById(R.chrono_item.lapsTV)).setText(title);
+			((TextView) list.getChildAt(i).findViewById(R.id.chrono_item_lapsTV)).setText(title);
 		}
 		
 		for (AthleteItem item: athletes){

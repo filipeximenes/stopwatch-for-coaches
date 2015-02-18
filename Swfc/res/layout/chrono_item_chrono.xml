@@ -9,18 +9,18 @@
  	android:baselineAligned="false"
  	>
  	<RelativeLayout 
- 		android:id="@+chrono_item/lapsViewRR"
+ 		android:id="@+id/chrono_item_lapsViewRR"
  		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 		android:layout_weight="2"
 		android:focusableInTouchMode="false"
  		>
  		<TextView 
- 			android:id="@+chrono_item/lapsTV"
+ 			android:id="@+id/chrono_item_lapsTV"
  			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:gravity="center_horizontal"
-			android:text="@string/Laps"
+			android:text="@string/laps"
 			android:maxLines="1"
 			android:layout_alignParentTop="true"
 			android:textColor="@color/white"
@@ -29,10 +29,10 @@
 			style="@style/chrono_headers"
  			/>
 	 	<ListView 
-	 		android:id="@+chrono_item/lapsLV"
+	 		android:id="@+id/chrono_item_lapsLV"
 	 		android:layout_height="fill_parent"
 	 		android:layout_width="fill_parent"
-	 		android:layout_below="@+chrono_item/lapsTV"
+	 		android:layout_below="@+id/chrono_item_lapsTV"
 	 		android:scrollbars="none"
 	 		style="@style/defaultListStyle"
 	 		/>
@@ -45,11 +45,11 @@
 		android:background="@color/white"
 		>
 		<TextView 
-			android:id="@+chrono_item/nameTV"
+			android:id="@+id/chrono_item_nameTV"
  			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:gravity="center_horizontal"
-			android:text="@string/Laps"
+			android:text="@string/laps"
 			android:maxLines="1"
 			android:textColor="@color/black"
 			android:textStyle="bold"
@@ -62,7 +62,7 @@
 			android:clipChildren="true"
 			>
 			<base.stopwatch.util.design.ChronoTypeface
-		      	android:id="@+chrono_item/chronoTV"
+		      	android:id="@+id/chrono_item_chronoTV"
 		      	android:layout_height="wrap_content" 
 		      	android:layout_width="wrap_content"
 		      	android:layout_alignParentTop="true"
@@ -73,12 +73,12 @@
 		    	android:layout_height="wrap_content" 
 		      	android:layout_width="wrap_content"
 				android:layout_centerVertical="true"
-				android:layout_toLeftOf="@+chrono_item/layout" 
+				android:layout_toLeftOf="@+id/chrono_item_layout"
 				android:layout_marginRight="30sp"     	
 		      	android:text="touch here"
 		    	/>
 			<LinearLayout 
-				android:id="@+chrono_item/layout"
+				android:id="@+id/chrono_item_layout"
 				android:layout_height="wrap_content" 
 				android:layout_width="wrap_content"
 				android:layout_centerVertical="true"
@@ -87,13 +87,13 @@
 				android:layout_marginRight="20sp"
 				>
 				<base.stopwatch.util.design.ChronoTypeface
-					android:id="@+chrono_item/timeTV"
+					android:id="@+id/chrono_item_timeTV"
 					android:layout_height="wrap_content" 
 					android:layout_width="wrap_content"
 					style="@style/chrono_text"
 					/>
 				<base.stopwatch.util.design.ChronoTypeface
-			      	android:id="@+chrono_item/lapTV"
+			      	android:id="@+id/chrono_item_lapTV"
 			      	android:layout_height="wrap_content" 
 			      	android:layout_width="wrap_content"
 			      	style="@style/chrono_text"

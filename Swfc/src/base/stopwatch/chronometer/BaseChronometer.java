@@ -5,18 +5,15 @@ import android.graphics.Typeface;
 import android.os.SystemClock;
 import android.util.AttributeSet;
 import android.widget.Chronometer;
-import base.stopwatch.chronometer.ChronoList.GetChronoInformation;
+//import base.stopwatch.chronometer.ChronoList.GetChronoInformation;
+import base.stopwatch.chronometer.ChronometerInterfaces.GetChronoInformation;
+import base.stopwatch.chronometer.ChronometerInterfaces.UpdateChronosOnTickListener;
 
 public class BaseChronometer extends Chronometer implements GetChronoInformation{
 	private boolean STOPED = false;
 	private boolean STARTED = false;
 	private UpdateChronosOnTickListener tickUpdater;
-	
-	//communication from ForCoachesChronometer to ChronoList 
-	public interface UpdateChronosOnTickListener{
-		void updateChronosOnTickListener(long time);
-	}
-	
+
 	//set communication from ForCoachesChronometer to ChronoList 
 	public void setUpdateChronosOnTickListener(UpdateChronosOnTickListener tickUpdater) {
 		this.tickUpdater = tickUpdater;
